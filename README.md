@@ -1,11 +1,11 @@
 # Introduction to Git
 
 ## Git Structure
-## Working Directory
+### Working Directory
 - Area where all of our files directories and changes are living all the time.
-## Staging Area
+### Staging Area
 - Files and directories that we explicitly add to the staging area.
-## Git Repository
+### Git Repository
 - Where all our snapshots are stored.
 
 
@@ -25,11 +25,13 @@
 2. Add name of the files and folders do you want ignore
 
 ## Git Branches
+ ```
 
-                  /-----0---0----0
-                 /              /
-(Main-Branch)   0-----0-----0----0----0
-
+   (feature1)     /-----0---0----0
+                 /              / (merge feature1 to main)
+(main)   0-----0-----0----0----0
+```
+  
 - Listing all branches
 <code>git branch</code>
 
@@ -46,13 +48,13 @@
 <code>git branch -d <branch_name></code>
 
 ## Git and Github
-1 - Create or Login in Github
-2 - Create repository with the same name the local repository preferenced.
-3 - Add config remote origin repository to local repository
+1. Create or Login in Github
+2. Create repository with the same name the local repository preferenced.
+3. Add config remote origin repository to local repository
 e.g. <code>git remote add origin  https://github.com/thompsoncarlos/intro-to-git.git</code>
-- Command to verify remote repository config
+Command to verify remote repository config
 <code> git remote -v</code>
-4 - Push local repository to origin repository
+4. Push local repository to origin repository
 <code> git push -u origin main</code>
 
 
