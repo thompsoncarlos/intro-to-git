@@ -9,6 +9,10 @@
 
 ## Git Branches
 
+                  /-----0---0----0
+                 /              /
+(Main-Branch)   0-----0-----0----0----0
+
 - Listing all branches
 <code>git branch</code>
 
@@ -19,11 +23,10 @@
 <code>git checkout <branch_name></code>
 
 - Merging a branch
+<code>git merge <branch_name></code>
 
 - Removing a branch
+<code>git branch -d <branch_name></code>
 
 
 
-         /-----0---0----0
-        /              /
-0-----0-----0----0----0
